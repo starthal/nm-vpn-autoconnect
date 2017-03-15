@@ -1,0 +1,10 @@
+[Unit]
+Description=VPN Autoconnect Service
+
+[Service]
+ExecStart=/usr/local/bin/nm-vpn-autoconnect.sh
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
+Alias=nm-vpn-autoconnect.service
