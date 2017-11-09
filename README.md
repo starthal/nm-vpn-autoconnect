@@ -1,6 +1,12 @@
 # nm-vpn-autoconnect
 Simple script (with systemd service) to automatically reconnect a VPN via NetworkManager
 
+In your VPN settings, make sure you have selected "All users may connect to this network", and, if there is a password, "Store the password for all users".
+
+![All users may connect to this network](readme-all-users.png)
+
+![Store the password for all users](readme-store-password.png)
+
 Edit `VPNNAME` in `nm-vpn-autoconnect.sh` to correspond to your VPN UUID.
 
 You can see the UUID in the output of `nmcli con`.
