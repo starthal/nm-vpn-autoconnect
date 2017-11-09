@@ -14,3 +14,8 @@ You can see the UUID in the output of `nmcli con`.
 Then:
 
     sudo ./install.sh
+
+If you have issues, you can disable the service:
+
+    sudo systemctl stop nm-vpn-autoconnect
+    sudo systemctl disable nm-vpn-autoconnect
