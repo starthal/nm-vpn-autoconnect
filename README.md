@@ -7,7 +7,7 @@ In your VPN settings, make sure you have selected "All users may connect to this
 
 ![Store the password for all users](readme-store-password.png)
 
-Edit `VPNNAME` in `nm-vpn-autoconnect.sh` to correspond to your VPN UUID.
+Edit `VPN_NAME` in `nm-vpn-autoconnect.sh` to correspond to your VPN UUID.
 
 You can see the UUID in the output of `nmcli con`.
 
