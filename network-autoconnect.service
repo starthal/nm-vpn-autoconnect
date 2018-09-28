@@ -1,0 +1,10 @@
+[Unit]
+Description=Network Autoconnect Service
+
+[Service]
+ExecStart=/usr/local/bin/network-autoconnect.sh
+StandardOutput=null
+
+[Install]
+WantedBy=multi-user.target
+Alias=network-autoconnect.service
